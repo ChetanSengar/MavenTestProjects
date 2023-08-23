@@ -1,0 +1,81 @@
+<<<<Backend>>>>
+
+The users table contains basic user details.
+
+The tasks table contains details about individual tasks. The projectId column can be used to link a task to a project.
+
+The comments table contains comments linked to tasks (assuming comments can only be on tasks for simplicity). Each comment is linked to a user (who made the comment) and a task (on which the comment was made).
+
+The projects table contains projects which are linked to users through the projectOwnerId column.
+
+The notifications table logs notifications. Each notification is linked to a user, who is the recipient of the notification.
+
+Tables:
+User
+Task
+Project
+Notification
+Comment 
+
+Queries: 
+-- User Table
+CREATE TABLE users (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    role VARCHAR(50)
+);
+
+CREATE TABLE roles (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL UNIQUE
+);
+
+CREATE TABLE user_roles (
+    user_id BIGINT,
+    role_id BIGINT,
+    PRIMARY KEY (user_id, role_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (role_id) REFERENCES roles(id)
+);
+
+
+-- Task Table
+CREATE TABLE tasks (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    dueDate DATETIME,
+    status VARCHAR(50),
+    priority VARCHAR(50),
+    category VARCHAR(255),
+    projectId BIGINT
+);
+
+-- Comment Table (assuming a simple structure for now)
+CREATE TABLE comments (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    content TEXT,
+    taskId BIGINT,
+    userId BIGINT,
+    FOREIGN KEY (taskId) REFERENCES tasks(id),
+    FOREIGN KEY (userId) REFERENCES users(id)
+);
+
+-- Project Table
+CREATE TABLE projects (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    projectOwnerId BIGINT,
+    FOREIGN KEY (projectOwnerId) REFERENCES users(id)
+);
+
+-- Notification Table
+CREATE TABLE notifications (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    message TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    recipientId BIGINT,
+    FOREIGN KEY (recipientId) REFERENCES users(id)
+);
+
