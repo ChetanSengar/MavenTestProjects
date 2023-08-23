@@ -1,0 +1,59 @@
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="first_name">First Name:</label>
+        <input type="text" class="form-control" id="first_name" formControlName="first_name" required>
+        <div *ngIf="employeeForm.get('first_name')?.invalid && employeeForm.get('first_name')?.touched" class="text-danger">
+            First name is required
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="last_name">Last Name:</label>
+        <!-- <input type="text" class="form-control" id="last_name" formControlName="last_name" required> -->
+        <input type="text" class="form-control" id="last_name" formControlName="last_name">
+        <!-- <div *ngIf="employeeForm.get('last_name')?.invalid && employeeForm.get('last_name')?.touched" class="text-danger">
+            Last name is required
+        </div> -->
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" formControlName="email" required>
+        <div *ngIf="employeeForm.get('email')?.invalid && employeeForm.get('email')?.touched" class="text-danger">
+            Valid email is required
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="phone_number">Mobile:</label>
+        <input type="number" class="form-control" id="phone_number" formControlName="phone_number" minlength="10" maxlength="10" required>
+        <div *ngIf="employeeForm.get('phone_number')?.invalid && employeeForm.get('phone_number')?.touched" class="text-danger">
+            Mobile number should be of 10 digits
+        </div>
+        <div *ngIf="employeeForm.get('phone_number')?.errors?.['required'] && employeeForm.get('phone_number')?.touched" class="text-danger">
+            Mobile number is required
+        </div>
+        <div *ngIf="employeeForm.get('phone_number')?.errors?.['minlength'] && employeeForm.get('phone_number')?.touched" class="text-danger">
+            Mobile number should be of 10 digits
+        </div>
+        <div *ngIf="employeeForm.get('phone_number')?.errors?.['maxlength'] && employeeForm.get('phone_number')?.touched" class="text-danger">
+            Mobile number should be of 10 digits
+        </div>
+        <div *ngIf="employeeForm.get('phone_number')?.errors?.['pattern'] && employeeForm.get('phone_number')?.touched" class="text-danger">
+            Mobile number should contain only numbers
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="job_title">Job Title:</label>
+        <input type="text" class="form-control" id="job_title" formControlName="job_title" required>
+        <div *ngIf="employeeForm.get('job_title')?.invalid && employeeForm.get('job_title')?.touched" class="text-danger">
+            Job title is required
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="department">Department:</label>
+        <input type="text" class="form-control" id="department" formControlName="department" required>
+        <div *ngIf="employeeForm.get('department')?.invalid && employeeForm.get('department')?.touched" class="text-danger">
+            Department is required
+        </div>
+    </div>
+    <br><button type="submit" class="btn btn-success wiggle" [disabled]="!employeeForm.valid">Submit</button>
+    <!--  -->
+</form>

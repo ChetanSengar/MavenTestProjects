@@ -1,0 +1,66 @@
+# version: '3.8'
+# services:
+#   frontend:
+#     build: 
+#       context: Frontend/Test_1
+#       dockerfile: Dockerfile
+#     ports:
+#       - '8081:80'
+#     volumes:
+#       - ./Frontend/Test_1/default.conf:/etc/nginx/conf.d/default.conf
+#       - ./Frontend/Test_1/dist/test-1:/usr/share/nginx/html/test-1
+#     networks:
+#       - springboot_mysql_net
+
+#   backend:
+#     build:
+#       context: Backend/Test_1
+#       dockerfile: Dockerfile
+#     ports:
+#       - 8080:8080
+#     networks:
+#       - springboot_mysql_net
+#     depends_on:
+#       - mysql_container
+
+#   mysql_container:
+#     image: mysql:8.0
+#     ports:
+#       - 3306:3306
+#       - 33060:33060
+#     environment:
+#       - MYSQL_ROOT_PASSWORD=Root@123
+#       - MYSQL_DATABASE=application
+#       - SPRING_PROFILES_ACTIVE: docker
+#     networks:
+#       - springboot_mysql_net
+      
+
+# networks:
+#   springboot_mysql_net:
+# #
+version: '3.8'
+services:
+  frontend:
+    build: 
+      context: Frontend/Test_1
+      dockerfile: Dockerfile
+    ports:
+      - '8081:80'
+    volumes:
+      - ./Frontend/Test_1/default.conf:/etc/nginx/conf.d/default.conf
+      - ./Frontend/Test_1/dist/test-1:/usr/share/nginx/html/test-1
+    networks:
+      - springboot_mysql_net
+
+  backend:
+    build:
+      context: Backend/Test_1
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    networks:
+      - springboot_mysql_net
+
+networks:
+  springboot_mysql_net:

@@ -1,0 +1,208 @@
+2023-06-09 14:53:03.693 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 7584 (C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1)
+2023-06-09 14:53:03.694 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-06-09 14:53:10.419 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 7.061 seconds (process running for 7.546)
+2023-06-09 14:56:20.082 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 14300 (C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1)
+2023-06-09 14:56:20.083 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-06-09 14:56:26.694 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 6.944 seconds (process running for 7.416)
+2023-06-09 14:56:31.749 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 15:03:33.726 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 9704 (C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1)
+2023-06-09 15:03:33.727 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-06-09 15:03:40.845 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 7.454 seconds (process running for 7.953)
+2023-06-09 15:04:10.838 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:04:10.963 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 9
+2023-06-09 15:06:13.851 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:06:13.906 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=33, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:06:14.895 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:06:14.903 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=34, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:06:15.792 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:06:15.798 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=35, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:06:39.680 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 15:08:45.944 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 6860 (C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1)
+2023-06-09 15:08:45.945 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-06-09 15:08:51.656 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 6.049 seconds (process running for 6.523)
+2023-06-09 15:09:01.378 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Updating employee with ID: 35
+2023-06-09 15:09:01.477 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee updated successfully: Employee [id=35, first_name=Chetan Singh, last_name=Sengar, email=john.doe@example.com, phone_number=1234567890, job_title=CIO, department=DSP]
+2023-06-09 15:09:22.412 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:22.483 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:25.116 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:25.118 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Getting employee by ID: 34
+2023-06-09 15:09:25.126 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Employee retrieved successfully: Optional[Employee [id=34, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]]
+2023-06-09 15:09:25.126 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 15:09:25.131 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:29.470 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Updating employee with ID: 34
+2023-06-09 15:09:29.483 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Employee updated successfully: Employee [id=34, first_name=Lakh, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:09:29.492 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:29.502 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:29.512 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:29.521 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:34.859 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:34.859 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Getting employee by ID: 29
+2023-06-09 15:09:34.864 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Employee retrieved successfully: Optional[Employee [id=29, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]]
+2023-06-09 15:09:34.864 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 15:09:34.871 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:34.886 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:34.894 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:41.791 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Updating employee with ID: 29
+2023-06-09 15:09:41.806 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Employee updated successfully: Employee [id=29, first_name=Manoj, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:09:41.817 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:41.825 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:41.837 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:41.844 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:41.856 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:41.862 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:46.984 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:46.984 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Getting employee by ID: 30
+2023-06-09 15:09:46.989 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Employee retrieved successfully: Optional[Employee [id=30, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]]
+2023-06-09 15:09:46.989 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 15:09:46.994 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:47.010 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:47.018 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:47.027 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:47.035 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:54.357 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Updating employee with ID: 30
+2023-06-09 15:09:54.368 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Employee updated successfully: Employee [id=30, first_name=Goku, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:09:54.379 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:54.388 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:54.397 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:54.404 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:54.413 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:54.422 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:54.432 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:54.438 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:57.069 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:57.069 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Getting employee by ID: 32
+2023-06-09 15:09:57.075 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Employee retrieved successfully: Optional[Employee [id=32, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]]
+2023-06-09 15:09:57.075 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 15:09:57.078 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:57.091 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:57.096 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:57.105 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:57.111 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:09:57.120 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:09:57.125 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:10:00.755 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Updating employee with ID: 32
+2023-06-09 15:10:00.768 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Employee updated successfully: Employee [id=32, first_name=Vegeta, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 15:10:00.776 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:10:00.786 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:10:00.795 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:10:00.803 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:10:00.814 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:10:00.821 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:10:00.924 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:10:00.931 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:10:00.940 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:10:00.949 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:28:32.849 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:28:32.862 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:28:35.441 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:28:35.448 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Total employees: 12
+2023-06-09 15:28:51.995 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=123, last_name=1234`, email=12345@gmail.com, phone_number=1234567891, job_title=fgbszdrb, department=AAA]
+2023-06-09 15:28:52.018 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=36, first_name=123, last_name=1234`, email=12345@gmail.com, phone_number=1234567891, job_title=fgbszdrb, department=AAA]
+2023-06-09 15:28:56.494 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:28:56.501 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 13
+2023-06-09 15:28:56.515 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:28:56.522 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 13
+2023-06-09 15:32:10.990 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 32
+2023-06-09 15:32:11.009 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:32 got removed.'}
+2023-06-09 15:32:13.525 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 32
+2023-06-09 15:32:15.944 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 19
+2023-06-09 15:32:15.953 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:19 got removed.'}
+2023-06-09 15:32:17.781 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 24
+2023-06-09 15:32:17.791 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:24 got removed.'}
+2023-06-09 15:32:23.009 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:32:23.014 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 10
+2023-06-09 15:32:25.403 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 31
+2023-06-09 15:32:25.412 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:31 got removed.'}
+2023-06-09 15:32:27.709 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:32:27.716 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Total employees: 9
+2023-06-09 15:34:22.869 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:34:22.878 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Total employees: 9
+2023-06-09 15:34:26.401 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:34:26.413 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 9
+2023-06-09 15:34:28.916 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 29
+2023-06-09 15:34:28.931 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:29 got removed.'}
+2023-06-09 15:34:52.361 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:34:52.375 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 15:34:55.080 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 28
+2023-06-09 15:34:55.080 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:28 got removed.'}
+2023-06-09 15:35:50.352 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 21
+2023-06-09 15:35:50.354 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:21 got removed.'}
+2023-06-09 15:35:54.463 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:35:54.474 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Total employees: 6
+2023-06-09 15:35:56.277 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 25
+2023-06-09 15:35:56.287 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:25 got removed.'}
+2023-06-09 15:36:35.214 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:36:35.220 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Total employees: 5
+2023-06-09 15:36:38.985 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 30
+2023-06-09 15:36:38.990 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:30 got removed.'}
+2023-06-09 15:37:23.349 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:37:23.367 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 4
+2023-06-09 15:37:25.722 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:37:25.729 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 4
+2023-06-09 15:37:27.123 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 33
+2023-06-09 15:37:27.139 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:33 got removed.'}
+2023-06-09 15:38:38.918 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:38:38.934 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Total employees: 3
+2023-06-09 15:39:43.731 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 36
+2023-06-09 15:39:43.742 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:36 got removed.'}
+2023-06-09 15:39:56.044 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 35
+2023-06-09 15:39:56.060 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:35 got removed.'}
+2023-06-09 15:40:31.496 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:40:31.501 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 1
+2023-06-09 15:40:33.193 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 34
+2023-06-09 15:40:33.202 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:34 got removed.'}
+2023-06-09 15:40:36.099 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:40:36.103 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Total employees: 0
+2023-06-09 15:40:37.575 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:40:37.581 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Total employees: 0
+2023-06-09 15:41:31.224 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:41:31.224 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 5
+2023-06-09 15:41:31.241 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:41:31.250 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 5
+2023-06-09 15:42:04.267 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Deleting employee with ID: 39
+2023-06-09 15:42:04.280 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Employee deleted successfully with ID: {message: 'Employee with ID:39 got removed.'}
+2023-06-09 15:42:17.417 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 27312 (C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1)
+2023-06-09 15:42:17.419 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-06-09 15:42:23.833 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 6.752 seconds (process running for 7.234)
+2023-06-09 15:42:31.002 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:42:31.083 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 3
+2023-06-09 15:42:36.795 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 15:42:36.795 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 2
+2023-06-09 16:30:02.520 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:30:02.532 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Total employees: 2
+2023-06-09 16:31:33.661 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:31:33.670 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 7
+2023-06-09 16:32:54.302 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:32:54.312 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 7
+2023-06-09 16:34:09.330 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:34:09.337 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Total employees: 7
+2023-06-09 16:34:54.599 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=AAAAAAA, last_name=AAAAAAA, email=AAAAA@gmail.com, phone_number=1234567891, job_title=AA, department=dfcew]
+2023-06-09 16:34:54.649 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=47, first_name=AAAAAAA, last_name=AAAAAAA, email=AAAAA@gmail.com, phone_number=1234567891, job_title=AA, department=dfcew]
+2023-06-09 16:35:00.874 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:00.884 [http-nio-8080-exec-8] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:00.895 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:00.904 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:04.841 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:04.842 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Getting employee by ID: 47
+2023-06-09 16:35:04.848 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee retrieved successfully: Optional[Employee [id=47, first_name=AAAAAAA, last_name=AAAAAAA, email=AAAAA@gmail.com, phone_number=1234567891, job_title=AA, department=dfcew]]
+2023-06-09 16:35:04.848 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - This is an info message
+2023-06-09 16:35:04.850 [http-nio-8080-exec-10] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:04.861 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:04.872 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:12.209 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Updating employee with ID: 47
+2023-06-09 16:35:12.222 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Employee updated successfully: Employee [id=47, first_name=BBBB, last_name=AAAAAAA, email=AAAAA@gmail.com, phone_number=1234567891, job_title=AA, department=dfcew]
+2023-06-09 16:35:12.231 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:12.241 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:12.255 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:12.260 [http-nio-8080-exec-6] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:12.270 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:12.275 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Total employees: 8
+2023-06-09 16:35:17.063 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:35:17.069 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 7
+2023-06-09 16:37:05.357 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 25968 (C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\EmployeeDataManager\EmployeeManagerBackend\Test_1)
+2023-06-09 16:37:05.359 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-06-09 16:37:11.724 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 6.701 seconds (process running for 7.221)
+2023-06-09 16:44:37.650 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 16:44:37.725 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=48, first_name=Lakhdeep, last_name=Gautam, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-06-09 16:48:16.935 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-06-09 16:48:16.995 [http-nio-8080-exec-7] INFO  c.e.t.Controller.EmployeeController - Total employees: 6

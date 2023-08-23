@@ -1,0 +1,17 @@
+2023-07-12 17:36:06.041 [main] INFO  com.example.test_1.Test1Application - Starting Test1Application using Java 17.0.7 with PID 27948 (C:\Users\chetan.singh\Desktop\Desktop\POC_Application\POC_Application\Backend\Test_1\target\classes started by chetan.singh in C:\Users\chetan.singh\Desktop\Desktop\POC_Application\POC_Application)
+2023-07-12 17:36:06.046 [main] INFO  com.example.test_1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-12 17:36:13.442 [main] INFO  com.example.test_1.Test1Application - Started Test1Application in 8.351 seconds (process running for 9.075)
+2023-07-12 17:36:33.904 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-07-12 17:36:34.175 [http-nio-8080-exec-3] INFO  c.e.t.Controller.EmployeeController - Total employees: 24
+2023-07-12 17:36:36.216 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-07-12 17:36:36.236 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 24
+2023-07-12 17:38:25.531 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=Chetan, last_name=Singh, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-07-12 17:38:25.721 [http-nio-8080-exec-4] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=31, first_name=Chetan, last_name=Singh, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-07-12 17:38:26.946 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Inserting employee: Employee [id=0, first_name=Chetan, last_name=Singh, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-07-12 17:38:26.971 [http-nio-8080-exec-5] INFO  c.e.t.Controller.EmployeeController - Employee inserted successfully: Employee [id=32, first_name=Chetan, last_name=Singh, email=john.doe@example.com, phone_number=1234567890, job_title=Manager, department=Sales]
+2023-07-12 17:42:49.847 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-07-12 17:42:49.910 [http-nio-8080-exec-9] INFO  c.e.t.Controller.EmployeeController - Total employees: 26
+2023-07-12 17:42:52.080 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-07-12 17:42:52.095 [http-nio-8080-exec-1] INFO  c.e.t.Controller.EmployeeController - Total employees: 26
+2023-07-12 19:57:51.581 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Listing all employees
+2023-07-12 19:57:51.778 [http-nio-8080-exec-2] INFO  c.e.t.Controller.EmployeeController - Total employees: 26

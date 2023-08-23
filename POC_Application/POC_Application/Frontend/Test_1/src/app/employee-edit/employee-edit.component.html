@@ -1,0 +1,11 @@
+<!-- employee-edit.component.html -->
+<div class="card fade-in">
+    <h5 class="card-header">Edit Employee</h5>
+    <div class="card-body">
+        <!-- employee-detail.component.html and employee-edit.component.html -->
+        <app-employee-form [employee]="employee" (formSubmit)="onSubmit($event)"></app-employee-form>
+        <!-- <app-employee-form (formSubmit)="onSubmit($event)" [employee]="employee"></app-employee-form> -->
+    </div>
+</div>
+
+<!-- end of employee-edit.component.html -->

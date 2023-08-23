@@ -1,0 +1,12 @@
+<div class="card fade-in">
+    <h5 class="card-header">Create Employee</h5>
+    <div class="card-body">
+        <div *ngIf="!submitted">
+            <!-- <app-employee-form [employee]="employee" (formSubmit)="onSubmit($event)"></app-employee-form> -->
+            <app-employee-form [employee]="employee" (formSubmit)="onSubmit($event)"></app-employee-form>
+        </div>
+        <div *ngIf="submitted">
+            <h4>You submitted successfully!</h4>
+        </div>
+    </div>
+</div>

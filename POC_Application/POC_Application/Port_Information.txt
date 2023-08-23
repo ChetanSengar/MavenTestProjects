@@ -1,0 +1,37 @@
+Spring(Backend):
+
+-http://localhost:8080/updateEmployee :
+Raw (JSON):
+{
+    "id": 22,
+    "first_name": "Vijendra Pal Singh",
+    "last_name": "Sengar",
+    "email": "john.doe@example.com",
+    "phone_number": "1234567890",
+    "job_title": "CIO",
+    "department": "DSP"
+}
+
+-http://localhost:8080/listAllEmployee
+
+-http://localhost:8080/deleteEmployee/11
+
+-http://localhost:8080/saveEmployee
+Raw (JSON):
+{
+    "first_name": "Lakhdeep",
+    "last_name": "Gautam",
+    "email": "john.doe@example.com",
+    "phone_number": "1234567890",
+    "job_title": "Manager",
+    "department": "Sales"
+}
+
+Database: jdbc:mysql://localhost:3306/application
+
+______________________________________________________________
+
+Angular (Docker) : http://localhost:8081/list
+
+
+Docker-Compose : http://localhost:8082/list
