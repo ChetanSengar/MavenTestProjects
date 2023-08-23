@@ -1,0 +1,22 @@
+>>>>This file is contains the Question/Assignment for this POC<<<<
+
+UI
+	• Create a form to create/edit employee details
+	• Create a table to show all employee information along with edit/delete action button
+Backend
+	• Create CRUD operation rest apis for employees
+	• Create audit logs for each operation.
+	• Generate application logs for errors and debugging
+Containerization
+	• Create docker image for application
+	• Create a script to create docker container for application
+	• Audit logs should be persisted.
+Orchestration
+	1. Create Kubernetes deployment artifacts for application.
+	2. Application should have at least two pods(2 app differently) running.
+	3. Users should be able to access the UI and rest api from browser/postman.
+	4. Audit logs should be persisted for each individual pod.
+		a. Note: if the pod gets recreated it should start from the same state where it was deleted/stopped.
+	5. Application logs should be pushed to Elastic search(fast searching operation) using the Banzai Logging operator.
+	6. Audit logs should be pushed to Elastic search using the Banzai Logging operator.
+	7. Configure elastic search and Kibana to analyze logs.
