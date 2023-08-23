@@ -1,0 +1,22 @@
+<h2>Users List</h2>
+
+<table *ngIf="users.length">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Username</th>
+      <th>Email</th>
+      <!-- ... Add other columns as needed -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.id }}</td>
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <!-- ... Add other data as needed -->
+    </tr>
+  </tbody>
+</table>
+
+<p *ngIf="!users.length">No users available at the moment.</p>
